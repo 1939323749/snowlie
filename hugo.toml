@@ -1,0 +1,4 @@
+baseURL = 'https://1939323749.github.io/'
+languageCode = 'en-us'
+title = 'snowlie'
+theme = 'hugo-theme-diary'
