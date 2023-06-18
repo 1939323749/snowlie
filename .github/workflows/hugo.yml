@@ -56,7 +56,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            -c ./hugo.toml
+            --config ./hugo.toml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
