@@ -48,7 +48,7 @@ func main() {
 	tunnel, _ := sshtunnel.NewSSHTunnel(
 		"user@host:port",
 		ssh.Password("password"),
-		"localhost:3080",
+		"localhost:1080",
 		"1080",
 	)
 	tunnel.Log = log.New(os.Stdout, "", log.Ldate|log.Lmicroseconds)
